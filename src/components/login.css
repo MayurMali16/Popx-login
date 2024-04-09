@@ -1,0 +1,48 @@
+
+.input-wrapper {
+    position: relative;
+  }
+  .container-lg{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin-bottom: 250px;
+}
+.container-info{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+input {
+  border: 1px solid gray;
+  border-radius: 6px;
+  position: relative;
+  width: 300px;
+  margin: 10px;
+  line-height: 5ex;
+}
+
+label {
+  position: absolute;
+  top: 0.2ex;
+  z-index: 1;
+  left: 2em;
+  background-color: white;
+  padding: 0 5px;
+}
+
+.container-lg button{
+    padding: 15px;
+    margin: 5px;
+    border-radius: 10px;
+    font-size: 15px;
+    width: 300px;
+    background-color: blueviolet;
+    cursor: pointer;
+    color: white;
+}
+
+.container-lg button:hover{
+  background: #000;
+}

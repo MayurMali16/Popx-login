@@ -1,0 +1,35 @@
+.container-acc {
+  width: 300px;
+  padding: 20px;
+  background-color: #f8f9fa;
+  margin-bottom: 350px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.container-acc h2 {
+  font-size: 24px;
+  margin-bottom: 16px;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+}
+
+.profile-img {
+  width: 80px;
+  height: 85px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-right: 16px; /* Add margin to separate image from text */
+}
+
+.name-email {
+  flex: 1; /* Allow the text content to expand and fill remaining space */
+}
+
+.name-email p {
+  font-size: 16px;
+  margin-bottom: 8px;
+}
